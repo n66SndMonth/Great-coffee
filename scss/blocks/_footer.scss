@@ -1,0 +1,30 @@
+.footer{
+  width: 1280px;
+  margin-top: 20px;
+  padding: 10px 0;
+  background: #2C343E;
+
+  &__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  &__link{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+  }
+}
+@media screen and (max-width:768px) {
+  .footer{
+    width: 100%;
+  }
+}
+@media screen and (max-width:475px) {
+  .footer__list{
+    flex-direction: column;
+  }
+}
